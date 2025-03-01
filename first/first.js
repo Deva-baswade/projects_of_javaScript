@@ -18,6 +18,9 @@ buttons.forEach(function(button){
         if(e.target.id == 'yellow'){ // Corrected typo from 'yello' to 'yellow'
             body.style.backgroundColor = e.target.id;
         }
+        if(e.target.id == 'purple'){
+            body.style.backgroundColor = e.target.id // 'purple' //this also we use this
+        }
 
         //  body.style.backgroundColor = e.target.id; // This line will change the background color
     });
