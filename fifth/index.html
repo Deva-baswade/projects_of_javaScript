@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <h2>deva bhai is here</h2>
+    <button id="stop">Stop</button>
+    
+</body>
+<script>
+    const deva = function(){
+        document.querySelector('h2').style.color = 'red';
+    }
+    setTimeout(deva,2000)
+
+    setTimeout(() => {
+        document.querySelector('h2').style.color = 'green';
+         document.querySelector('h2').innerHTML = 'deva bhai is there';
+    }, 2000);
+
+    const changetext = document.querySelector('h2').innerHTML = 'deva bhai is there';
+    
+      const clearout = setTimeout(changetext, 2000);
+
+      documnet.querySelector('#stop').addEventListener('click',()=>{
+          clearTimeout(clearout);
+          console.log('stoped');
+          
+      })
+
+
+
+</script>
+</html>
