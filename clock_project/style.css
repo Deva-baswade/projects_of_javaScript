@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
 }
+h2{
+    color: rgb(238, 159, 13);
+    text-align: center;
+}
 
 .clock {
+    top: 1rem;
     margin: auto;
-    border: solid black 0.2px;
+    
     height: 40vw;
     width: 40vw;
     background-image: url(clock.webp);
