@@ -1,0 +1,22 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    text-align: center;
+    color: rgb(236, 158, 13);
+}
+.box {
+    height: 17vw;
+    width: 55vw;
+    background-color: rgb(190, 209, 200);
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 5px;
+}
+.buttons1 {
+    margin-top: auto;
+    padding: 0.19rem;
+}
+
