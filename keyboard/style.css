@@ -2,7 +2,20 @@
 * {
     margin: 0;
     padding: 0;
+
 }
+.deva{
+    height: 20vw;
+    width: 45vw;
+    margin-left: 26rem;
+    background-color: rgb(240, 244, 244);
+    border: solid rgb(70, 63, 63);
+}
+ 
+/* 
+this the frist div css */
+
+
 h2 {
     text-align: center;
     color: rgb(236, 158, 13);
@@ -16,7 +29,22 @@ h2 {
     border-radius: 5px;
 }
 .buttons1 {
-    margin-top: auto;
+    margin: 0.25rem auto auto 0.29rem;
     padding: 0.19rem;
+    font-size: 0.4rem;
+    text-align: center;
+    height: 1.1rem;
+    width:2.1rem;
+    justify-content: space-evenly;
 }
 
+@media (max-width: 600px) {
+    .deva{
+        margin-left: 10rem;
+    }
+} 
+@media (max-width: 768px) {
+    .deva{
+        margin-left: 5rem;
+    }
+}
