@@ -35,21 +35,38 @@ h2 {
 }
 .box {
     height: 17vw;
-    width: 55vw;
+    width: 100vw;
     background-color: rgb(190, 209, 200);
     margin: auto;
     margin-top: 5rem;
     border-radius: 5px;
 }
 .buttons1 {
-    margin: 0.25rem auto auto 0.29rem;
+    margin: 0.60rem auto auto 0.29rem;
     padding: 0.19rem;
-    font-size: 0.4rem;
+    font-size: 1rem;
     text-align: center;
-    height: 1.1rem;
-    width:2.1rem;
+    height: 2rem;
+    width: 4.2rem;
     justify-content: space-evenly;
 }
+#LONG{
+    width: 23rem;
+    margin-bottom: 3rem;
+}
+#cap{
+    width: 5rem;
+}
+#shift{
+    width: 8rem;
+}
+#shifts{
+    width: 9.5rem;
+}
+#enter{
+    width: 8rem;
+}
+
 
 @media (max-width: 600px) {
     .deva{
