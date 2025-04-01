@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <title>Deva's Weather App</title>
+</head>
+<body>
+
+<div class="card">
+    <div class="search">
+        <input type="text" placeholder="Enter city name" id="cityInput" spellcheck="false">
+    </div>
+    <div class="weather">
+        <img src="snowfall.png" alt="" class="weather-icon" id="weatherIcon">
+        <h1 class="temp" style="font-weight: 800; font-size: xx-large;">22°c</h1>
+        <h2 class="city" style="font-weight: 650;">Nanded</h2>
+        <div class="deatails">
+            <div class="col">
+                <i class="fa-solid fa-temperature-low"  id="icon"></i>
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-wind fa-3x" id="icon"></i>
+
+                <div>
+                    <p class="wind">8km/hr</p>
+                    <p> Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+<script src="index.js"></script>  
+</body>
+</html>
